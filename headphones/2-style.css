@@ -101,3 +101,97 @@ main section div {
     width: 60%;
     text-align: center;
 }
+
+
+#whatwedo {
+    width: 80%;
+    text-align: center;
+    color: black;
+    height: 100vh;
+
+}
+
+#whatwedo .intro p {
+
+    margin: 20% 20% 10%;
+    text-align: center;
+    font-size: 1.0rem;
+
+}
+
+#whatwedo .row-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+#whatwedo .row-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(20% - 30px);
+    padding: 10px;
+
+}
+
+.holberton_school-icon-ic_sound,
+.holberton_school-icon-ic_video,
+.holberton_school-icon-ic_music,
+.holberton_school-icon-ic_hearing {
+    color: #FF6565;
+    font-size: 80px;
+}
+
+#ourresults {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+#ourresults .intro p {
+    margin: 10% 20% 10%;
+    text-align: center;
+    font-size: 1.1rem;
+
+}
+
+#ourresults .row-items {
+
+    width: 80%;
+    height: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+       margin: 0 auto;
+}
+
+#ourresults .row-item {
+    background-image: url(images/pentagone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+      width: 20%;  
+          justify-content: center;
+
+}
+
+#ourresults .row-item .number {
+ font-weight: bold;
+font-size: 50px;
+
+
+}
+#ourresults .row-item p {
+justify-content: center;
+margin:0;
+
+}

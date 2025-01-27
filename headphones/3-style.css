@@ -1,0 +1,238 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Source Sans Pro' sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: top 0.3s ease;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+nav img {
+    margin-left: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #FF6565;
+}
+
+button {
+    background-color: #FF6565;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main {
+    background-image: url('images/headphones_hero_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+main section div {
+    width: 60%;
+    text-align: center;
+}
+
+
+#whatwedo {
+    width: 80%;
+    text-align: center;
+    color: black;
+    height: 100vh;
+
+}
+
+#whatwedo .intro p {
+
+    margin: 20% 20% 10%;
+    text-align: center;
+    font-size: 1.0rem;
+
+}
+
+#whatwedo .row-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+#whatwedo .row-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(20% - 30px);
+    padding: 10px;
+
+}
+
+.holberton_school-icon-ic_sound,
+.holberton_school-icon-ic_video,
+.holberton_school-icon-ic_music,
+.holberton_school-icon-ic_hearing {
+    color: #FF6565;
+    font-size: 80px;
+}
+
+#ourresults {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#ourresults .intro p {
+    margin: 10% 20% 10%;
+    text-align: center;
+    font-size: 1.1rem;
+
+}
+
+#ourresults .row-items {
+
+    width: 80%;
+    height: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#ourresults .row-item {
+    background-image: url(images/pentagone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+}
+
+#ourresults .row-item .number {
+    font-weight: bold;
+    font-size: 50px;
+
+
+}
+
+#ourresults .row-item p {
+    justify-content: center;
+    margin: 0;
+
+}
+#contactus {
+    width: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 100vh;
+  
+}
+
+#form-container {
+   
+   width:80%;
+   margin-top:10%;
+      
+  }
+
+#contactusForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.form-input {
+    width: 30%;
+    padding: 10px 0;
+    border: none;
+    border-bottom :1px solid #979797;
+    background-color: transparent;
+    outline: none;
+    font-size:16px;
+}
+.form-input:focus {
+    border-bottom: 2px solid #979797;
+}
+
+.form-botton {
+    padding: 12px ;
+}
